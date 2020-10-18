@@ -1,0 +1,89 @@
+@font-face {
+    font-family: Lato;
+    src: url("./../assets/fonts/Lato-Regular.ttf");
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Lato";
+    background-color: #70B7E3;
+}
+.section h1{
+    display: block;
+    font-size: 44px;
+    margin-top: 20vh;
+    letter-spacing: 2px;
+}
+
+.example1{
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+
+section a{
+    display: block;
+    background-color: pink;
+    padding: 8px 20px;
+    margin: 50px 300px;
+    border: 3px solid white;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+section a:hover{
+    cursor: pointer;
+    background-color: darkmagenta;
+}
+
+.logo{
+    display: block;
+    float: left;
+    width: 50%;
+}
+
+ul{
+    text-align: center;
+    width: 90%;
+    height: 38px;
+}
+
+li{
+    list-style-type: none;
+    display: block;
+    float: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: darkblue;
+    letter-spacing: 1px;
+    width: 300px;
+    background-color:lightblue;
+    padding: 10px 30px;
+}
+
+ul>li:hover
+{
+    background-color: #70B7BA;
+    cursor: pointer;
+}
+
+li:first-child{
+    margin-left: 15%;
+}
+
+.section{
+    float: right;
+    color: white;
+    font-weight: bold;
+}
+
+main{
+    height: 80vh;
+    background-color: #70B7E3;
+}
+
+.example{
+    background-color: lightblue;
+}
