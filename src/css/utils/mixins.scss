@@ -1,0 +1,45 @@
+@mixin pink-button{
+    padding: $button-padding;
+    border: $white-border;
+    background-color: $pink-color;
+    color: $white-color;
+    font-weight: $weight-bold;
+    &:hover {
+        background-color: $light-pink-color;
+        text-decoration: none;
+        }
+    border-radius: $rounded-border;
+}
+
+@mixin link-standard{
+        color: $dark-blue-color;
+        text-decoration: none;
+        &:hover {
+        text-decoration: underline;
+        }
+}
+
+@mixin h1{
+    font-size: $font-size-large;
+    line-height: $line-height-small;
+}
+
+@mixin important-paragraph{
+    font-size: $font-size-regular;
+    line-height: $line-height-regular; 
+}
+
+@mixin main-nav{
+    text-align: center;
+    margin-top: $margin-regular;
+    background-color: $light-blue-color;
+    height: $height;
+    padding: $padding-0-40;
+    li {
+      display: inline-block;
+      padding: $padding-5-30;
+      font-weight: $weight-light;
+      font-size: $font-size-small;
+      margin: $margin-small;
+    }
+}

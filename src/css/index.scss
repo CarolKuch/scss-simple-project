@@ -1,0 +1,42 @@
+@import "./utils/variables.scss";
+@import "./utils/mixins.scss";
+@import "./base/typography.scss";
+@import "./base/layout.scss";
+body {
+  font-family: $font-family;
+  background-color: $blue-color;
+  color: $white-color;
+  margin: $margin-0-auto;
+}
+
+.main-nav {
+  @include main-nav;
+}
+
+a {
+  @include link-standard;
+}
+
+.half-column {
+  display: inline-block;
+  width: $regular-width;
+  padding: $padding-50-0-10-20;
+}
+
+.landing-copy {
+  margin-left: $margin-big;
+  h1 {
+    @include h1;
+  }
+  & p {
+    @include important-paragraph;
+  }
+}
+
+.cta-button {
+  @include pink-button;  
+}
+
+.right {
+  float: $right;
+}
