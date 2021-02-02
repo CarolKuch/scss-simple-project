@@ -1,6 +1,5 @@
 # WSB Project
 > Webpage
-
 ## General info
 This webpage is an academy project. The job was to recreate a page created by university teacher.
 
